@@ -1,0 +1,26 @@
+[com/canonical/indicator/datetime]
+show-date=true
+show-day=true
+
+[com/canonical/indicator/keyboard]
+visible=true
+migrated=true
+
+[com/canonical/unity/launcher]
+favorites=['application://nautilus.desktop', 'application://firefox.desktop', 'application://libreoffice-writer.desktop', 'application://libreoffice-calc.desktop', 'application://libreoffice-impress.desktop', 'application://gnome-terminal.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
+
+[org/gnome/nautilus/desktop]
+volumes-visible=true
+
+[org/gnome/nautilus/preferences]
+always-use-location-entry=true
+
+[com/canonical/unity/lenses]
+remote-content-search='none'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb','ee'),('xkb','ru')]
+
+[org/gnome/desktop/lockdown]
+disable-lock-screen=true
+disable-user-switching=true
